@@ -1,0 +1,146 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(5,200px);
+  grid-template-rows: 32px 300px 32px 300px;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  justify-items: stretch;
+  align-content: center;
+}
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-items: center,start;
+  align-content: center,start;
+}
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: center,start;
+  align-content: center,start;
+}
+.item3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: start;
+  align-content: center;
+}
+.item4{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: center,start;
+  align-content: center,start;
+}
+.item5{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: center,start;
+  align-content: center,start;
+}
+.item6{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-items: center,start;
+  align-content: center,start;
+}
+.item7{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-items: start;
+  align-content: start;
+}
+.item8{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-items: start;
+  align-content: start;
+}
+.item9{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-items: start;
+  align-content: start;
+}
+.item10{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-items: start;
+  align-content: start;
+}
+.item11{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-items: start;
+  align-content: start;
+}
+.item12{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  justify-items: start;
+  align-content: start;
+}
+.logo{
+  text-align: left;
+  font-family: fantasy;
+  font-size: 12pt;
+}
+.signin{
+  text-align: right;
+  font-family: fantasy;
+  font-size: 24pt;
+}
+.left{
+  text-align: left;
+  font-family: fantasy;
+  font-size: 24pt;
+}
+
+.footer{
+  height: 30px; 
+  width: 100%;
+  text-align: center;
+  font-family: serif;
+}
+.footer2{
+  position:absolute;
+  bottom: 0;
+  height: 30px; 
+  width: 100%;
+  text-align: center;
+  font-family: serif;
+}
+#center{
+  position: absolute;
+  left: 50%;
+}
+.f-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
